@@ -222,38 +222,8 @@
 
 		<dependency>
 			<groupId>io.springfox</groupId>
-			<artifactId>springfox-core</artifactId>
-			<version>${springfox-version}</version>
-		</dependency>
-
-		<!--<dependency>-->
-		<!--<groupId>io.springfox</groupId>-->
-		<!--<artifactId>springfox-spi</artifactId>-->
-		<!--<version>${springfox-version}</version>-->
-		<!--</dependency>-->
-		<dependency>
-			<groupId>io.springfox</groupId>
-			<artifactId>springfox-spring-web</artifactId>
-			<version>${springfox-version}</version>
-		</dependency>
-		<dependency>
-			<groupId>io.springfox</groupId>
 			<artifactId>springfox-swagger2</artifactId>
 			<version>${springfox-version}</version>
-			<exclusions>
-				<exclusion>
-					<groupId>com.fasterxml.jackson.module</groupId>
-					<artifactId>jackson-module-scala_2.10</artifactId>
-				</exclusion>
-				<exclusion>
-					<groupId>org.scala-lang</groupId>
-					<artifactId>scalap</artifactId>
-				</exclusion>
-				<exclusion>
-					<groupId>org.scala-lang</groupId>
-					<artifactId>scala-compiler</artifactId>
-				</exclusion>
-			</exclusions>
 		</dependency>
 
 		<!-- test -->
